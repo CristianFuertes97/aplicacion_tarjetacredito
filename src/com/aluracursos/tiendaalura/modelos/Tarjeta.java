@@ -12,10 +12,6 @@ public class Tarjeta{
 	
 
     // Constructor
-
-    public Tarjeta() {
-    }
-
     public Tarjeta(int limite) {
         this.limite = limite;
         
@@ -26,33 +22,16 @@ public class Tarjeta{
     public int getLimite() {
         return this.limite;
     }
-
-    public void setLimite(int limite) {
-        this.limite = limite;
-    }
-
     public int getSaldo() {
         return this.saldo;
-    }
-
-    public void setSaldo(int saldo) {
-        this.saldo = saldo;
     }
 
     public int getCompras() {
         return this.compras;
     }
 
-    public void setCompras(int compras) {
-        this.compras = compras;
-    }
-
     public int getSaldoACtual() {
 		return this.saldoACtual;
-	}
-
-	public void setSaldoACtual(int saldoACtual) {
-		this.saldoACtual = saldoACtual;
 	}
 
     // Metodos
